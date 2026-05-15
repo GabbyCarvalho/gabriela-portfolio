@@ -1,9 +1,9 @@
 /* resume.css */
 
 .resume {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 5rem 4rem 6rem;  /* aumenta o padding lateral */
+  padding: 5rem 6rem 6rem;  /* aumenta o padding lateral */
   display: flex;
   flex-direction: column;
   gap: 4rem;
