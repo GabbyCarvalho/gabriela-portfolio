@@ -1,0 +1,87 @@
+.terminal {
+  background: #1e1e1e;
+  border-radius: 10px;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  max-width: 600px;
+  margin: 2rem auto;
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+.terminal-bar {
+  background: #2d2d30;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #333;
+}
+
+.terminal-bar .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.terminal-bar .dot.red    { background: #ff5f57; }
+.terminal-bar .dot.yellow { background: #febc2e; }
+.terminal-bar .dot.green  { background: #28c840; }
+
+.terminal-title {
+  color: #888;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.terminal-body {
+  padding: 1.5rem 2rem;
+  min-height: 160px;
+}
+
+.terminal .line {
+  margin-bottom: 0.6rem;
+  font-size: 15px;
+  min-height: 1.4em;
+  color: #d4d4d4;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.terminal .line.visible {
+  opacity: 1;
+}
+
+.terminal .prompt       { color: #569cd6; }
+.terminal .value-name   { color: #4ec9b0; }
+.terminal .value-role   { color: #dcdcaa; }
+.terminal .value-stack  { color: #ce9178; }
+.terminal .value-status { color: #c586c0; }
+.terminal .bar-fill     { color: #4ec9b0; }
+
+.terminal .cursor {
+  display: inline-block;
+  width: 9px;
+  height: 15px;
+  background: #d4d4d4;
+  vertical-align: middle;
+  animation: cursor-blink 1s step-end infinite;
+}
+
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+@media (max-width: 768px) {
+    .terminal {
+        margin: 1rem;
+        max-width: 100%;
+    }
+
+    .terminal-body {
+        padding: 1rem 1.2rem;
+    }
+
+    .terminal .line {
+        font-size: 13px;
+    }
+}

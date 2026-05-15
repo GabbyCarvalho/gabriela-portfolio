@@ -1,0 +1,300 @@
+* resume.css */
+
+.resume {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5rem 4rem 6rem;  /* aumenta o padding lateral */
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+/* ── Header ── */
+.resumeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border-bottom: 1px solid var(--bg-tertiary);
+  padding-bottom: 2.5rem;
+  padding: 5rem;
+}
+
+.resumeName {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+
+.resumeName span {
+  color: var(--accent-purple);
+}
+
+.resumeSub {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-family: 'Inter', sans-serif;
+}
+
+.downloadBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  border: 1px solid var(--accent-blue);
+  color: var(--accent-blue);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  text-decoration: none;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+  flex-shrink: 0;
+}
+
+.downloadBtn:hover {
+  background: var(--accent-blue);
+  color: #1e1e1e;
+}
+
+/* ── Section ── */
+.resumeSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 5rem
+}
+
+.sectionTitle {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent-green);
+  letter-spacing: 0.04em;
+}
+
+.sectionTitle .prompt {
+  color: var(--accent-blue);
+  margin-right: 0.4rem;
+}
+
+/* ── Skills ── */
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skillTag {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--bg-tertiary);
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--accent-orange);
+  background: var(--bg-secondary);
+  transition: border-color 0.2s;
+}
+
+.skillTag:hover {
+  border-color: var(--accent-orange);
+}
+
+/* ── Experience ── */
+.expCard {
+  background: var(--bg-secondary);
+  border: 1px solid var(--bg-tertiary);
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.expHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.expRole {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.expCompany {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+  font-size: 0.875rem;
+  color: var(--accent-purple);
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.expCompany:hover {
+  text-decoration: underline;
+}
+
+.expPeriod {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+}
+
+.expList {
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.expList li {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* ── Projects ── */
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.projectCard {
+  background: var(--bg-secondary);
+  border: 1px solid var(--bg-tertiary);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.projectCard:hover {
+  border-color: var(--accent-purple);
+  transform: translateY(-3px);
+}
+
+.projectInfo {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.projectName {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.95rem;
+  color: var(--accent-yellow);
+  font-weight: 600;
+}
+
+.projectDesc {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.projectLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--accent-blue);
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
+
+/* ── Education ── */
+.eduList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.eduItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.2rem 1.5rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--bg-tertiary);
+  border-radius: 8px;
+}
+
+.eduDegree {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.eduInstitution {
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--accent-green);
+  font-family: 'Inter', sans-serif;
+}
+
+.eduPeriod {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+}
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .resume {
+    padding: 2rem 1.2rem 4rem;
+    gap: 3rem;
+  }
+
+  .resumeHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .resumeName {
+    font-size: 2rem;
+  }
+
+  .downloadBtn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .expHeader {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .eduItem {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

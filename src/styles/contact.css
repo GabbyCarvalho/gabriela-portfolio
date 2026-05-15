@@ -1,0 +1,206 @@
+/* contact.css */
+
+.contact {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+/* ── Header ── */
+.contactHeader {
+  border-bottom: 1px solid var(--bg-tertiary);
+  padding-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contactPre {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.contactPre .prompt {
+  color: var(--accent-blue);
+  margin-right: 0.3rem;
+}
+
+.contactTitle {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+
+.contactTitle span {
+  color: var(--accent-purple);
+}
+
+.contactSub {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: var(--text-muted);
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+/* ── Grid ── */
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+/* ── Info ── */
+.contactInfoTitle {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  color: var(--accent-green);
+  margin-bottom: 1rem;
+}
+
+.contactInfoText {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contactLinkItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contactLinkIcon {
+  color: var(--accent-blue);
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.contactLinkLabel {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.15rem;
+}
+
+.contactLinkValue {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a.contactLinkValue:hover {
+  color: var(--accent-blue);
+}
+
+.contactLinkValue.plain {
+  color: var(--text-primary);
+}
+
+/* ── Form ── */
+.contactFormWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.formGroup label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.formGroup input,
+.formGroup textarea {
+  background: var(--bg-secondary);
+  border: 1px solid var(--bg-tertiary);
+  border-radius: 4px;
+  padding: 0.7rem 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  outline: none;
+  resize: vertical;
+  transition: border-color 0.2s;
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+  color: #555;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: var(--accent-blue);
+}
+
+.submitBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.8rem;
+  background: none;
+  border: 1px solid var(--accent-purple);
+  color: var(--accent-purple);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.2s, color 0.2s;
+}
+
+.submitBtn:hover {
+  background: var(--accent-purple);
+  color: #1e1e1e;
+}
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem 1.2rem 4rem;
+  }
+
+  .contactTitle {
+    font-size: 2rem;
+  }
+
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .submitBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}
