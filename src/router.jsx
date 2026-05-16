@@ -19,10 +19,7 @@ const router = createBrowserRouter(
         { path: "projects", element: <Projects /> },
       ],
     },
-  ],
-  {
-    basename: "/gabriela-portfolio",
-  }
+  ]
 );
 
 export default router;
