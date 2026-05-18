@@ -103,6 +103,7 @@ const projects = [
     name: "Travel Agency Website",
     stack: ["HTML", "CSS", "Bootstrap"],
     link: "https://gabbycarvalho.github.io/travel-agency/",
+    linkLabel: "Visit website",
     description:
       "A travel agency website built with HTML and Bootstrap, designed to deliver a visually engaging and user-friendly browsing experience. Focused on presenting travel destinations, services, and promotional content in an organized and responsive layout.",
     features: [

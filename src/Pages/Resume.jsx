@@ -37,7 +37,7 @@ const projects = [
   },
   {
     name: "Restaurant Website",
-    description: "Online pizzeria application with user interface design and interactive ordering features.",
+    description: "Online pizzeria landing page built with HTML and CSS as a learning project, designed to practice layout structure, responsive design, and visual styling while simulating a simple restaurant menu interface.",
     link: "https://gabbycarvalho.github.io/pizza-place/",
   },
   {
