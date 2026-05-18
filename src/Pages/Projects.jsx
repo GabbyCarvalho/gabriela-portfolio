@@ -86,7 +86,8 @@ const projects = [
     id: 2,
     name: "Restaurant Website",
     stack: ["HTML", "CSS"],
-    link: null,
+    link: "https://gabbycarvalho.github.io/pizza-place/",
+    linkLabel: "Visit website",
     description:
       "A visually appealing pizzeria website designed to create an engaging and welcoming digital experience. The main focus was presenting the restaurant's menu and brand identity through a clean layout and visually cohesive design, with attention to spacing, visual hierarchy, and responsiveness.",
     features: [
@@ -97,26 +98,28 @@ const projects = [
     ],
     images: [pizza1, pizza2, pizza3, pizza4, pizza5],
   },
-  {
+      {
     id: 3,
-    name: "Game Library",
-    stack: ["React", "JavaScript", "CSS"],
-    link: null,
+    name: "Travel Agency Website",
+    stack: ["HTML", "CSS", "Bootstrap"],
+    link: "https://gabbycarvalho.github.io/travel-agency/",
     description:
-      "A dynamic game library application built with React that allows users to manage a personalized collection of games. Users can add games with a title and cover image, view them as cards, and remove them at any time — with real-time UI updates throughout.",
+      "A travel agency website built with HTML and Bootstrap, designed to deliver a visually engaging and user-friendly browsing experience. Focused on presenting travel destinations, services, and promotional content in an organized and responsive layout.",
     features: [
-      "Add games with title and cover image",
-      "Display games in a structured card layout",
-      "Remove games from the list",
-      "Real-time UI updates with React state",
+      "Dynamic carousel for featured destinations",
+      "Dropdown navigation menus",
+      "Bootstrap grid system and utility classes",
+      "Responsive across desktop and mobile",
     ],
-    images: [gl1, gl2, gl3, gl4],
+    images: [boot1, boot2, boot3, boot4, boot5],
   },
-  {
+
+    {
     id: 4,
     name: "Seals Informative Website",
     stack: ["HTML", "CSS"],
-    link: null,
+    link: "https://gabbycarvalho.github.io/seals/",
+    linkLabel: "Visit website",
     description:
       "A creative and visually engaging website about seals, built with a strong focus on layout design and visual presentation. The goal was to create an informative yet aesthetically appealing experience, combining clean structure with engaging styling techniques and a focus on accessibility.",
     features: [
@@ -127,11 +130,13 @@ const projects = [
     ],
     images: [seals1, seals2, seals3, seals4, seals5, seals6],
   },
-  {
+
+    {
     id: 5,
     name: "Calculator",
     stack: ["HTML", "CSS", "JavaScript"],
-    link: null,
+    link: "https://gabbycarvalho.github.io/calculator/",
+    linkLabel: "Visit website",
     description:
       "An interactive calculator built to deliver a smooth and intuitive user experience across different devices. Supports multiple mathematical operations and includes dynamic style customization, allowing users to personalize the interface in real time.",
     features: [
@@ -142,11 +147,31 @@ const projects = [
     ],
     images: [calc1, calc2, calc3, calc4],
   },
+
   {
     id: 6,
+    name: "Game Library",
+    stack: ["React", "JavaScript", "CSS"],
+    link: "https://gabbycarvalho.github.io/game-library/",
+    linkLabel: "Visit website",
+    description:
+      "A dynamic game library application built with React that allows users to manage a personalized collection of games. Users can add games with a title and cover image, view them as cards, and remove them at any time — with real-time UI updates throughout.",
+    features: [
+      "Add games with title and cover image",
+      "Display games in a structured card layout",
+      "Remove games from the list",
+      "Real-time UI updates with React state",
+    ],
+    images: [gl1, gl2, gl3, gl4],
+  },
+
+
+  {
+    id: 7,
     name: "Tic-Tac-Toe",
     stack: ["HTML", "CSS", "JavaScript"],
-    link: null,
+    link: "https://gabbycarvalho.github.io/tic-tac-toe/",
+    linkLabel: "Visit website",
     description:
       "An interactive Tic-Tac-Toe game focused on creating an engaging and dynamic user experience. Combines game logic with an intuitive interface, featuring a real-time scoreboard, current player indicator, and winner notifications after each round.",
     features: [
@@ -158,10 +183,11 @@ const projects = [
     images: [tic1, tic2, tic3, tic4],
   },
   {
-    id: 7,
+    id: 8,
     name: "Rock, Paper, Scissors",
     stack: ["React", "JavaScript", "CSS"],
-    link: null,
+    link: "https://gabbycarvalho.github.io/rock-paper-scissors/",
+    linkLabel: "Visit website",
     description:
       "A responsive and interactive Rock, Paper, Scissors game built with React. Manages game logic through useState, handling player and computer choices, scores, and match results in real time. Includes randomized computer choices, instant visual feedback, and a live scoreboard.",
     features: [
@@ -171,22 +197,6 @@ const projects = [
       "Reset feature to restart game and scores",
     ],
     images: [rps1, rps2, rps3, rps4],
-  },
-
-    {
-    id: 8,
-    name: "Travel Agency Website",
-    stack: ["HTML", "CSS", "Bootstrap"],
-    link: null,
-    description:
-      "A travel agency website built with HTML and Bootstrap, designed to deliver a visually engaging and user-friendly browsing experience. Focused on presenting travel destinations, services, and promotional content in an organized and responsive layout.",
-    features: [
-      "Dynamic carousel for featured destinations",
-      "Dropdown navigation menus",
-      "Bootstrap grid system and utility classes",
-      "Responsive across desktop and mobile",
-    ],
-    images: [boot1, boot2, boot3, boot4, boot5],
   },
 
 

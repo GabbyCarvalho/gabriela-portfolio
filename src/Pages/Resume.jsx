@@ -1,6 +1,5 @@
 import "../styles/resume.css";
 import { FiDownload, FiExternalLink } from "react-icons/fi";
-import { Link } from "react-router-dom";
 
 
 const skills = [
@@ -32,22 +31,19 @@ const projects = [
     link: "https://kbphotographer.com/",
   },
   {
-    name: "Calculator",
-    description: "Interactive calculator built with HTML, CSS, and JavaScript featuring multiple functionalities and customizable styling.",
-    id:5,
-    link: "#",
+    name: "Travel Agency",
+    description: "Travel agency landing page built with HTML, CSS, and Bootstrap, designed to showcase destinations, services, and provide a clean, responsive user experience with easy contact access.",
+    link: "https://gabbycarvalho.github.io/travel-agency/",
   },
   {
     name: "Restaurant Website",
     description: "Online pizzeria application with user interface design and interactive ordering features.",
-    id: 2,
-    link: "#",
+    link: "https://gabbycarvalho.github.io/pizza-place/",
   },
   {
-    name: "Game Library",
-    description: "Dynamic game library app using React for managing personalized game collections with an intuitive UX.",
-    id:3,
-    link: "#",
+    name: "Informative Website",
+    description:"A creative and visually engaging website about seals, built with a strong focus on layout design and visual presentation. The goal was to create an informative yet aesthetically appealing experience, combining clean structure with engaging styling techniques and a focus on accessibility.",
+    link: "https://gabbycarvalho.github.io/seals/",
   },
 ];
 const education = [
@@ -128,9 +124,9 @@ export default function Resume() {
             <div className="projectCard" key={p.name}>
               <h3 className="projectName">{p.name}</h3>
               <p className="projectDesc">{p.description}</p>
-              <Link to="/projects" state={{ openId: p.id }} className="projectLink">
+              <a href={p.link} target="_blank" rel="noreferrer" className="projectLink">
                 View project <FiExternalLink size={13} />
-              </Link>
+              </a>
             </div>
           ))}
         </div>
