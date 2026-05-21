@@ -45,7 +45,7 @@ export const t = {
   // ── Resume ──────────────────────────────────────────────
   resume: {
     sub:        { en: "Front-End Developer · São Paulo, Brazil · Open to Remote", pt: "Desenvolvedora Front-End · São Paulo, Brasil · Aberta a Remoto" },
-    download:   { en: "Download CV", pt: "Baixar CV" },
+    download: { en: "Download PDF", pt: "Baixar PDF" },
     skills:     { en: "Technical Skills", pt: "Habilidades Técnicas" },
     experience: { en: "Work Experience", pt: "Experiência Profissional" },
     projects:   { en: "Projects", pt: "Projetos" },
