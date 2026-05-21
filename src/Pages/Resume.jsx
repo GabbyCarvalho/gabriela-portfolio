@@ -26,7 +26,10 @@ export default function Resume() {
           <h1 className="resumeName">Gabriela <span>Carvalho</span></h1>
           <p className="resumeSub">{r.sub[lang]}</p>
         </div>
-        <a href="/Gabriela_Carvalho_english.pdf" download className="downloadBtn">
+        <a href={lang === "en" ? "/Gabriela_Carvalho_english.pdf" : "/Gabriela_Carvalho_portugues.pdf"}
+          download
+          className="downloadBtn"
+        >
           <FiDownload /> {r.download[lang]}
         </a>
       </section>
