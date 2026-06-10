@@ -18,6 +18,11 @@ import ka8 from "../assets/projects/ka8.png";
 import ka9 from "../assets/projects/ka9.png";
 import ka10 from "../assets/projects/ka10.png";
 
+// kbphotographer linktress
+import engagements from "../assets/projects/engagements.png";
+import sports from "../assets/projects/sports.png";
+import portraits from "../assets/projects/portraits.png";
+
 // restaurant website screenshots
 import pizza1 from "../assets/projects/pizza1.png";
 import pizza2 from "../assets/projects/pizza2.png";
@@ -67,13 +72,14 @@ import boot5 from "../assets/projects/boot5.png";
 // Images mapped by project id (stays the same regardless of language)
 const projectImages = {
   1: [ka1, ka2, ka3, ka4, ka5, ka6, ka7, ka8, ka9, ka10],
-  2: [pizza1, pizza2, pizza3, pizza4, pizza5],
-  3: [boot1, boot2, boot3, boot4, boot5],
-  4: [seals1, seals2, seals3, seals4, seals5, seals6],
-  5: [calc1, calc2, calc3, calc4],
-  6: [gl1, gl2, gl3, gl4],
-  7: [tic1, tic2, tic3, tic4],
-  8: [rps1, rps2, rps3, rps4],
+  2: [engagements, sports, portraits],
+  3: [pizza1, pizza2, pizza3, pizza4, pizza5],
+  4: [boot1, boot2, boot3, boot4, boot5],
+  5: [seals1, seals2, seals3, seals4, seals5, seals6],
+  6: [calc1, calc2, calc3, calc4],
+  7: [gl1, gl2, gl3, gl4],
+  8: [tic1, tic2, tic3, tic4],
+  9: [rps1, rps2, rps3, rps4],
 };
 
 function Carousel({ images, projectName }) {
@@ -152,11 +158,19 @@ function ProjectItem({ project, openId, setOpenId, visitLabel }) {
                 <li key={f}><span className="featureDot">&gt;</span> {f}</li>
               ))}
             </ul>
-            {project.link && (
+            {project.links ? (
+              <div className="projectLinks">
+                {project.links.map(({ label, url }) => (
+                  <a key={url} href={url} target="_blank" rel="noreferrer" className="projectLink">
+                    {label} <FiExternalLink size={13} />
+                  </a>
+                ))}
+              </div>
+            ) : project.link ? (
               <a href={project.link} target="_blank" rel="noreferrer" className="projectLink">
                 {visitLabel} <FiExternalLink size={13} />
               </a>
-            )}
+            ) : null}
           </div>
         </div>
       )}

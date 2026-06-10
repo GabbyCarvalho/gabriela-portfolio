@@ -88,7 +88,7 @@ export const t = {
     projectsData: {
       en: [
         {
-          name: "KBPhotograph",
+          name: "KBPhotographer",
           description: "Bilingual (EN/PT) photography portfolio focused on professional presentation, online portfolio structure, and streamlined client contact.",
           link: "https://kbphotographer.com/",
         },
@@ -110,7 +110,7 @@ export const t = {
       ],
       pt: [
         {
-          name: "KBPhotograph",
+          name: "KBPhotographer",
           description: "Portfólio de fotografia bilíngue (EN/PT) focado em apresentação profissional, estrutura de portfólio online e contato simplificado com clientes.",
           link: "https://kbphotographer.com/",
         },
@@ -155,49 +155,67 @@ export const t = {
     data: {
       en: [
         {
-          id: 1, name: "KBPhotograph", stack: ["React", "JavaScript", "CSS"],
+          id: 1, name: "KBPhotographer", stack: ["React", "JavaScript", "CSS"],
           link: "https://kbphotographer.com/",
           description: "A bilingual (EN/PT) photography portfolio focused on professional presentation of photography services, structuring an online portfolio, and streamlining client contact. Built with React and integrated with third-party services like HoneyBook and Pic-Time.",
           features: ["Bilingual interface (EN/PT)", "Third-party service integration (HoneyBook, Pic-Time)", "Responsive and performance-optimized", "Component-based architecture"],
         },
         {
-          id: 2, name: "Restaurant Website", stack: ["HTML", "CSS"],
+          id: 2,
+          name: "KBPhotographer - Social Links Hub",
+          stack: ["React", "JavaScript", "CSS"],
+          links: [
+            { label: "Engagements", url: "https://visit.kbphotographer.com/engagements" },
+            { label: "Sports",      url: "https://visit.kbphotographer.com/sports" },
+            { label: "Portraits",   url: "https://visit.kbphotographer.com/portraits" },
+            { label: "Branding",    url: "https://visit.kbphotographer.com/branding" },
+          ],
+          description: "A set of custom link hub pages — similar to Linktree — built for a professional photographer. Each page is tailored to a specific photography niche, centralizing the most relevant links for that category in a clean and branded experience.",
+          features: [
+            "Individual hub page per photography niche",
+            "Clean and branded visual identity",
+            "Responsive across all devices",
+            "Fast and lightweight single-purpose pages",
+          ],
+        },
+        {
+          id: 3, name: "Restaurant Website", stack: ["HTML", "CSS"],
           link: "https://gabbycarvalho.github.io/pizza-place/",
           description: "A visually appealing pizzeria website designed to create an engaging and welcoming digital experience. Focused on presenting the restaurant's menu and brand identity through a clean layout.",
           features: ["Responsive layout", "Visual hierarchy and spacing", "Menu presentation", "User-centered design"],
         },
         {
-          id: 3, name: "Travel Agency Website", stack: ["HTML", "CSS", "Bootstrap"],
+          id: 4, name: "Travel Agency Website", stack: ["HTML", "CSS", "Bootstrap"],
           link: "https://gabbycarvalho.github.io/travel-agency/",
           description: "A travel agency website built with HTML and Bootstrap, designed to deliver a visually engaging and user-friendly browsing experience.",
           features: ["Dynamic carousel for featured destinations", "Dropdown navigation menus", "Bootstrap grid system and utility classes", "Responsive across desktop and mobile"],
         },
         {
-          id: 4, name: "Seals Informative Website", stack: ["HTML", "CSS"],
+          id: 5, name: "Seals Informative Website", stack: ["HTML", "CSS"],
           link: "https://gabbycarvalho.github.io/seals/",
           description: "A creative and visually engaging website about seals, built with a strong focus on layout design and visual presentation.",
           features: ["Semantic HTML structure", "CSS layout and visual hierarchy", "Responsive design", "Clean and accessible interface"],
         },
         {
-          id: 5, name: "Calculator", stack: ["HTML", "CSS", "JavaScript"],
+          id: 6, name: "Calculator", stack: ["HTML", "CSS", "JavaScript"],
           link: "https://gabbycarvalho.github.io/calculator/",
           description: "An interactive calculator built to deliver a smooth and intuitive user experience across different devices. Supports multiple mathematical operations and dynamic style customization.",
           features: ["Multiple mathematical operations", "Dynamic style customization", "Responsive interface", "DOM manipulation and JS fundamentals"],
         },
         {
-          id: 6, name: "Game Library", stack: ["React", "JavaScript", "CSS"],
+          id: 7, name: "Game Library", stack: ["React", "JavaScript", "CSS"],
           link: "https://gabbycarvalho.github.io/game-library/",
           description: "A dynamic game library application built with React that allows users to manage a personalized collection of games.",
           features: ["Add games with title and cover image", "Display games in a structured card layout", "Remove games from the list", "Real-time UI updates with React state"],
         },
         {
-          id: 7, name: "Tic-Tac-Toe", stack: ["HTML", "CSS", "JavaScript"],
+          id: 8, name: "Tic-Tac-Toe", stack: ["HTML", "CSS", "JavaScript"],
           link: "https://gabbycarvalho.github.io/tic-tac-toe/",
           description: "An interactive Tic-Tac-Toe game featuring a real-time scoreboard, current player indicator, and winner notifications after each round.",
           features: ["Real-time scoreboard", "Current player indicator", "Winner notifications", "Responsive and clean interface"],
         },
         {
-          id: 8, name: "Rock, Paper, Scissors", stack: ["React", "JavaScript", "CSS"],
+          id: 9, name: "Rock, Paper, Scissors", stack: ["React", "JavaScript", "CSS"],
           link: "https://gabbycarvalho.github.io/rock-paper-scissors/",
           description: "A responsive and interactive Rock, Paper, Scissors game built with React, with randomized computer choices, instant visual feedback, and a live scoreboard.",
           features: ["Randomized computer choices", "Live scoreboard", "Instant visual feedback", "Reset feature to restart game and scores"],
@@ -211,43 +229,61 @@ export const t = {
           features: ["Interface bilíngue (EN/PT)", "Integração com serviços de terceiros (HoneyBook, Pic-Time)", "Responsivo e otimizado em performance", "Arquitetura baseada em componentes"],
         },
         {
-          id: 2, name: "Website de Restaurante", stack: ["HTML", "CSS"],
+          id: 2,
+          name: "KBPhotograph - Hub de Links",
+          stack: ["React", "JavaScript", "CSS"],
+          links: [
+            { label: "Engagements", url: "https://visit.kbphotographer.com/engagements" },
+            { label: "Sports",      url: "https://visit.kbphotographer.com/sports" },
+            { label: "Portraits",   url: "https://visit.kbphotographer.com/portraits" },
+            { label: "Branding",    url: "https://visit.kbphotographer.com/branding" },
+          ],
+          description: "Um conjunto de páginas de hub de links — similar ao Linktree — desenvolvidas para uma fotógrafa profissional. Cada página é dedicada a um nicho específico de fotografia, centralizando os links mais relevantes daquela categoria em uma experiência limpa e com identidade visual própria.",
+          features: [
+            "Página de hub individual por nicho fotográfico",
+            "Identidade visual limpa e alinhada à marca",
+            "Responsivo em todos os dispositivos",
+            "Páginas leves e de propósito único",
+          ],
+        },
+        {
+          id: 3, name: "Website de Restaurante", stack: ["HTML", "CSS"],
           link: "https://gabbycarvalho.github.io/pizza-place/",
           description: "Um website visualmente atraente de pizzaria, focado em apresentar o cardápio e a identidade da marca através de um layout limpo e design coeso.",
           features: ["Layout responsivo", "Hierarquia visual e espaçamento", "Apresentação de cardápio", "Design centrado no usuário"],
         },
         {
-          id: 3, name: "Website de Agência de Viagens", stack: ["HTML", "CSS", "Bootstrap"],
+          id: 4, name: "Website de Agência de Viagens", stack: ["HTML", "CSS", "Bootstrap"],
           link: "https://gabbycarvalho.github.io/travel-agency/",
           description: "Um website de agência de viagens com HTML e Bootstrap, focado em oferecer uma experiência de navegação visualmente envolvente e amigável.",
           features: ["Carrossel dinâmico de destinos", "Menus de navegação com dropdown", "Grid system e utilitários do Bootstrap", "Responsivo em desktop e mobile"],
         },
         {
-          id: 4, name: "Website Informativo sobre Focas", stack: ["HTML", "CSS"],
+          id: 5, name: "Website Informativo sobre Focas", stack: ["HTML", "CSS"],
           link: "https://gabbycarvalho.github.io/seals/",
           description: "Um website criativo e visualmente envolvente sobre focas, com forte foco em design de layout e apresentação visual.",
           features: ["Estrutura HTML semântica", "Layout e hierarquia visual em CSS", "Design responsivo", "Interface limpa e acessível"],
         },
         {
-          id: 5, name: "Calculadora", stack: ["HTML", "CSS", "JavaScript"],
+          id: 6, name: "Calculadora", stack: ["HTML", "CSS", "JavaScript"],
           link: "https://gabbycarvalho.github.io/calculator/",
           description: "Uma calculadora interativa com suporte a múltiplas operações matemáticas e personalização dinâmica de estilo em tempo real.",
           features: ["Múltiplas operações matemáticas", "Personalização dinâmica de estilo", "Interface responsiva", "Manipulação de DOM e fundamentos de JS"],
         },
         {
-          id: 6, name: "Biblioteca de Jogos", stack: ["React", "JavaScript", "CSS"],
+          id: 7, name: "Biblioteca de Jogos", stack: ["React", "JavaScript", "CSS"],
           link: "https://gabbycarvalho.github.io/game-library/",
           description: "Uma aplicação de biblioteca de jogos em React que permite gerenciar uma coleção personalizada, com atualizações em tempo real.",
           features: ["Adicionar jogos com título e imagem de capa", "Exibir jogos em layout de cards", "Remover jogos da lista", "Atualizações em tempo real com estado React"],
         },
         {
-          id: 7, name: "Jogo da Velha", stack: ["HTML", "CSS", "JavaScript"],
+          id: 8, name: "Jogo da Velha", stack: ["HTML", "CSS", "JavaScript"],
           link: "https://gabbycarvalho.github.io/tic-tac-toe/",
           description: "Um jogo da velha interativo com placar em tempo real, indicador do jogador atual e notificações de vencedor após cada rodada.",
           features: ["Placar em tempo real", "Indicador do jogador atual", "Notificações de vencedor", "Interface responsiva e limpa"],
         },
         {
-          id: 8, name: "Pedra, Papel, Tesoura", stack: ["React", "JavaScript", "CSS"],
+          id: 9, name: "Pedra, Papel, Tesoura", stack: ["React", "JavaScript", "CSS"],
           link: "https://gabbycarvalho.github.io/rock-paper-scissors/",
           description: "Um jogo responsivo e interativo de Pedra, Papel, Tesoura em React, com escolhas aleatórias do computador, feedback visual instantâneo e placar ao vivo.",
           features: ["Escolhas aleatórias do computador", "Placar ao vivo", "Feedback visual instantâneo", "Função de reset para reiniciar jogo e pontuação"],
