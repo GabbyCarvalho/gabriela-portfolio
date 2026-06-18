@@ -23,6 +23,13 @@ import engagements from "../assets/projects/engagements.png";
 import sports from "../assets/projects/sports.png";
 import portraits from "../assets/projects/portraits.png";
 
+//fotos site corretora de imoveis
+import imoveis1 from "../assets/projects/imoveis-lp1.png"
+import imoveis2 from "../assets/projects/imoveis-lp2.png"
+import imoveis3 from "../assets/projects/imoveis-lp3.png"
+import imoveis4 from "../assets/projects/imoveis-lp4.png"
+import imoveis5 from "../assets/projects/imoveis-lp5.png"
+
 // restaurant website screenshots
 import pizza1 from "../assets/projects/pizza1.png";
 import pizza2 from "../assets/projects/pizza2.png";
@@ -73,13 +80,14 @@ import boot5 from "../assets/projects/boot5.png";
 const projectImages = {
   1: [ka1, ka2, ka3, ka4, ka5, ka6, ka7, ka8, ka9, ka10],
   2: [engagements, sports, portraits],
-  3: [pizza1, pizza2, pizza3, pizza4, pizza5],
-  4: [boot1, boot2, boot3, boot4, boot5],
-  5: [seals1, seals2, seals3, seals4, seals5, seals6],
-  6: [calc1, calc2, calc3, calc4],
-  7: [gl1, gl2, gl3, gl4],
-  8: [tic1, tic2, tic3, tic4],
-  9: [rps1, rps2, rps3, rps4],
+  3: [imoveis1, imoveis2, imoveis3, imoveis4, imoveis5],
+  4: [pizza1, pizza2, pizza3, pizza4, pizza5],
+  5: [boot1, boot2, boot3, boot4, boot5],
+  6: [seals1, seals2, seals3, seals4, seals5, seals6],
+  7: [calc1, calc2, calc3, calc4],
+  8: [gl1, gl2, gl3, gl4],
+  9: [tic1, tic2, tic3, tic4],
+  10: [rps1, rps2, rps3, rps4],
 };
 
 function Carousel({ images, projectName }) {
