@@ -6,6 +6,15 @@ import "../styles/projects.css";
 import { useLang } from "../LanguageContext";
 import { t } from "../i18n";
 
+//Pedro & Naidhig Landing Page 
+import lppedro1 from "../assets/projects/lp-pedro1.png"
+import lppedro2 from "../assets/projects/lp-pedro2.png"
+import lppedro3 from "../assets/projects/lp-pedro3.png"
+import lppedro4 from "../assets/projects/lp-pedro4.png"
+import lppedro5 from "../assets/projects/lp-pedro5.png"
+import lppedro6 from "../assets/projects/lp-pedro6.png"
+import lppedro7 from "../assets/projects/lp-pedro7.png"
+
 // kbphotography screenshots
 import ka1 from "../assets/projects/ka1.png";
 import ka2 from "../assets/projects/ka2.png";
@@ -78,16 +87,17 @@ import boot5 from "../assets/projects/boot5.png";
 
 // Images mapped by project id (stays the same regardless of language)
 const projectImages = {
-  1: [ka1, ka2, ka3, ka4, ka5, ka6, ka7, ka8, ka9, ka10],
-  2: [engagements, sports, portraits],
-  3: [imoveis1, imoveis2, imoveis3, imoveis4, imoveis5],
-  4: [pizza1, pizza2, pizza3, pizza4, pizza5],
-  5: [boot1, boot2, boot3, boot4, boot5],
-  6: [seals1, seals2, seals3, seals4, seals5, seals6],
-  7: [calc1, calc2, calc3, calc4],
-  8: [gl1, gl2, gl3, gl4],
-  9: [tic1, tic2, tic3, tic4],
-  10: [rps1, rps2, rps3, rps4],
+  1: [lppedro1, lppedro2, lppedro3, lppedro4, lppedro5, lppedro6, lppedro7],
+  2: [ka1, ka2, ka3, ka4, ka5, ka6, ka7, ka8, ka9, ka10],
+  3: [engagements, sports, portraits],
+  4: [imoveis1, imoveis2, imoveis3, imoveis4, imoveis5],
+  5: [pizza1, pizza2, pizza3, pizza4, pizza5],
+  6: [boot1, boot2, boot3, boot4, boot5],
+  7: [seals1, seals2, seals3, seals4, seals5, seals6],
+  8: [calc1, calc2, calc3, calc4],
+  9: [gl1, gl2, gl3, gl4],
+  10: [tic1, tic2, tic3, tic4],
+  11: [rps1, rps2, rps3, rps4],
 };
 
 function Carousel({ images, projectName }) {
@@ -143,7 +153,7 @@ function ProjectItem({ project, openId, setOpenId, visitLabel }) {
     <div className={`projectItem ${isOpen ? "open" : ""}`} ref={ref}>
       <button className="projectToggle" onClick={() => setOpenId(isOpen ? null : project.id)}>
         <div className="projectToggleLeft">
-          <span className="projectIndex">0{project.id}</span>
+          <span className="projectIndex">{String(project.id).padStart(2, "0")}</span>
           <span className="projectToggleName">{project.name}</span>
           <div className="projectStack">
             {project.stack.map((s) => (

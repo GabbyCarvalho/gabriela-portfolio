@@ -55,6 +55,20 @@ export const t = {
     experienceData: {
       en: [
         {
+          role: "Front-End Developer with a Focus on SEO (Freelance)",
+          company: "Pedro & Naidhig Sociedade de Advogados",
+          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
+          period: "June - 2026",
+          bullets: [
+            "Designed and developed a responsive React-based landing page for a law firm specializing in vehicle repossession and legal defense services.",
+            "Built the front-end using React, JavaScript (ES6+), HTML5, and CSS3.",
+            "Created reusable components and maintained a scalable, component-based architecture.",
+            "Optimized performance, accessibility, and mobile responsiveness across modern browsers.",
+            "Implemented technical SEO best practices and conversion-focused UI to improve search visibility and user engagement.",
+          ],
+        },
+
+        {
           role: "Front-End Developer (Freelance)",
           company: "KBPhotographer",
           link: "https://kbphotographer.com/",
@@ -69,6 +83,22 @@ export const t = {
         },
       ],
       pt: [
+
+         {
+          role: "Desenvolvedora Front-End & SEO (Freelance)",
+          company:  "Pedro & Naidhig Sociedade de Advogados",
+          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
+          period: "June - 2026",
+          bullets: [
+            "Desenvolvi uma landing page responsiva e focada em conversão para um escritório de advocacia especializado em busca e apreensão de veículos e defesa jurídica.",
+            "Construí o front-end utilizando React, JavaScript (ES6+), HTML5 e CSS3.",
+            "Criei componentes reutilizáveis seguindo uma arquitetura moderna e escalável.",
+            "Otimizei desempenho, acessibilidade e responsividade para garantir uma experiência consistente em diferentes dispositivos.",
+            "Apliquei boas práticas de SEO técnico e estratégias de interface voltadas para geração de leads e melhor experiência do usuário.",
+          ],
+
+
+        },
         {
           role: "Desenvolvedora Front-End (Freelance)",
           company: "KBPhotographer",
@@ -165,13 +195,22 @@ export const t = {
     data: {
       en: [
         {
-          id: 1, name: "KBPhotographer", stack: ["React", "JavaScript", "CSS"],
+          id: 1,
+          name: "Pedro & Naidhig Law Firm",
+          stack: ["React", "JavaScript", "CSS"],
+          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
+          description: "A conversion-focused landing page developed for a law firm specializing in vehicle repossession and legal defense services. Built with React, the project emphasizes responsive design, technical SEO, performance optimization, and a user experience designed to increase lead generation.",
+          features: ["Responsive and mobile-first design", "Technical SEO implementation", "Performance and accessibility optimization", "Conversion-focused user experience"],
+        },
+
+        {
+          id: 2, name: "KBPhotographer", stack: ["React", "JavaScript", "CSS"],
           link: "https://kbphotographer.com/",
           description: "A bilingual (EN/PT) photography portfolio focused on professional presentation of photography services, structuring an online portfolio, and streamlining client contact. Built with React and integrated with third-party services like HoneyBook and Pic-Time.",
           features: ["Bilingual interface (EN/PT)", "Third-party service integration (HoneyBook, Pic-Time)", "Responsive and performance-optimized", "Component-based architecture"],
         },
         {
-          id: 2,
+          id: 3,
           name: "KBPhotographer - Social Links Hub",
           stack: ["React", "JavaScript", "CSS"],
           links: [
@@ -189,49 +228,49 @@ export const t = {
           ],
         },
         {
-          id: 3, name: "Real Estate Landing Page", stack: ["React", "JavaScript","CSS"],
+          id: 4, name: "Real Estate Landing Page", stack: ["React", "JavaScript","CSS"],
           link: "https://corretora-lp.vercel.app/",
           description: "Landing Page developed for a luxury real estate agency, focused on elegance, credibility, and lead generation. The project features a sophisticated design, intuitive navigation, and an optimized user experience to showcase exclusive properties and strengthen the brand's digital presence.",
           features: ["Responsive layout", "Elegante Style", "User-centered design"],
         },
         {
-          id: 4, name: "Restaurant Website", stack: ["HTML", "CSS"],
+          id: 5, name: "Restaurant Website", stack: ["HTML", "CSS"],
           link: "https://gabbycarvalho.github.io/pizza-place/",
           description: "A visually appealing pizzeria website designed to create an engaging and welcoming digital experience. Focused on presenting the restaurant's menu and brand identity through a clean layout.",
           features: ["Responsive layout", "Visual hierarchy and spacing", "Menu presentation", "User-centered design"],
         },
         {
-          id: 5, name: "Travel Agency Website", stack: ["HTML", "CSS", "Bootstrap"],
+          id: 6, name: "Travel Agency Website", stack: ["HTML", "CSS", "Bootstrap"],
           link: "https://gabbycarvalho.github.io/travel-agency/",
           description: "A travel agency website built with HTML and Bootstrap, designed to deliver a visually engaging and user-friendly browsing experience.",
           features: ["Dynamic carousel for featured destinations", "Dropdown navigation menus", "Bootstrap grid system and utility classes", "Responsive across desktop and mobile"],
         },
         {
-          id: 6, name: "Seals Informative Website", stack: ["HTML", "CSS"],
+          id: 7, name: "Seals Informative Website", stack: ["HTML", "CSS"],
           link: "https://gabbycarvalho.github.io/seals/",
           description: "A creative and visually engaging website about seals, built with a strong focus on layout design and visual presentation.",
           features: ["Semantic HTML structure", "CSS layout and visual hierarchy", "Responsive design", "Clean and accessible interface"],
         },
         {
-          id: 7, name: "Calculator", stack: ["HTML", "CSS", "JavaScript"],
+          id: 8, name: "Calculator", stack: ["HTML", "CSS", "JavaScript"],
           link: "https://gabbycarvalho.github.io/calculator/",
           description: "An interactive calculator built to deliver a smooth and intuitive user experience across different devices. Supports multiple mathematical operations and dynamic style customization.",
           features: ["Multiple mathematical operations", "Dynamic style customization", "Responsive interface", "DOM manipulation and JS fundamentals"],
         },
         {
-          id: 8, name: "Game Library", stack: ["React", "JavaScript", "CSS"],
+          id: 9, name: "Game Library", stack: ["React", "JavaScript", "CSS"],
           link: "https://gabbycarvalho.github.io/game-library/",
           description: "A dynamic game library application built with React that allows users to manage a personalized collection of games.",
           features: ["Add games with title and cover image", "Display games in a structured card layout", "Remove games from the list", "Real-time UI updates with React state"],
         },
         {
-          id: 9, name: "Tic-Tac-Toe", stack: ["HTML", "CSS", "JavaScript"],
+          id: 10, name: "Tic-Tac-Toe", stack: ["HTML", "CSS", "JavaScript"],
           link: "https://gabbycarvalho.github.io/tic-tac-toe/",
           description: "An interactive Tic-Tac-Toe game featuring a real-time scoreboard, current player indicator, and winner notifications after each round.",
           features: ["Real-time scoreboard", "Current player indicator", "Winner notifications", "Responsive and clean interface"],
         },
         {
-          id: 10, name: "Rock, Paper, Scissors", stack: ["React", "JavaScript", "CSS"],
+          id: 11, name: "Rock, Paper, Scissors", stack: ["React", "JavaScript", "CSS"],
           link: "https://gabbycarvalho.github.io/rock-paper-scissors/",
           description: "A responsive and interactive Rock, Paper, Scissors game built with React, with randomized computer choices, instant visual feedback, and a live scoreboard.",
           features: ["Randomized computer choices", "Live scoreboard", "Instant visual feedback", "Reset feature to restart game and scores"],
@@ -239,13 +278,21 @@ export const t = {
       ],
       pt: [
         {
-          id: 1, name: "KBPhotograph", stack: ["React", "JavaScript", "CSS"],
+          id: 1,
+          name: "Pedro & Naidhig Sociedade de Advogados",
+          stack: ["React", "JavaScript", "CSS"],
+          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
+          description: "Landing page desenvolvida para um escritório de advocacia especializado em busca e apreensão de veículos e defesa jurídica. Construída com React, a aplicação prioriza design responsivo, SEO técnico, otimização de desempenho e uma experiência do usuário voltada para geração de leads.",
+          features: ["Design responsivo e mobile-first", "Implementação de SEO técnico", "Otimização de desempenho e acessibilidade", "Experiência do usuário focada em conversão"],
+        },
+        {
+          id: 2, name: "KBPhotograph", stack: ["React", "JavaScript", "CSS"],
           link: "https://kbphotographer.com/",
           description: "Um portfólio de fotografia bilíngue (EN/PT) focado na apresentação profissional de serviços fotográficos, estruturação de portfólio online e contato simplificado com clientes. Desenvolvido em React com integração a serviços como HoneyBook e Pic-Time.",
           features: ["Interface bilíngue (EN/PT)", "Integração com serviços de terceiros (HoneyBook, Pic-Time)", "Responsivo e otimizado em performance", "Arquitetura baseada em componentes"],
         },
         {
-          id: 2,
+          id: 3,
           name: "KBPhotograph - Hub de Links",
           stack: ["React", "JavaScript", "CSS"],
           links: [
@@ -263,49 +310,49 @@ export const t = {
           ],
         },
         {
-          id: 3, name: "Corretora de Imóveis", stack: ["React","JavaScript", "CSS"],
+          id: 4, name: "Corretora de Imóveis", stack: ["React","JavaScript", "CSS"],
           link: "https://corretora-lp.vercel.app/",
           description: "Landing Page desenvolvida para uma corretora de imóveis de alto padrão, com foco em elegância, credibilidade e geração de leads. O projeto apresenta um design sofisticado, navegação intuitiva e uma experiência otimizada para destacar propriedades exclusivas e fortalecer a presença digital da marca.",
           features: ["Layout responsivo", "Hierarquia visual e espaçamento", "Estilo clássico e luxuoso", "Design centrado no usuário"],
         },
         {
-          id: 4, name: "Website de Restaurante", stack: ["HTML", "CSS"],
+          id: 5, name: "Website de Restaurante", stack: ["HTML", "CSS"],
           link: "https://gabbycarvalho.github.io/pizza-place/",
           description: "Um website visualmente atraente de pizzaria, focado em apresentar o cardápio e a identidade da marca através de um layout limpo e design coeso.",
           features: ["Layout responsivo", "Hierarquia visual e espaçamento", "Apresentação de cardápio", "Design centrado no usuário"],
         },
         {
-          id: 5, name: "Website de Agência de Viagens", stack: ["HTML", "CSS", "Bootstrap"],
+          id: 6, name: "Website de Agência de Viagens", stack: ["HTML", "CSS", "Bootstrap"],
           link: "https://gabbycarvalho.github.io/travel-agency/",
           description: "Um website de agência de viagens com HTML e Bootstrap, focado em oferecer uma experiência de navegação visualmente envolvente e amigável.",
           features: ["Carrossel dinâmico de destinos", "Menus de navegação com dropdown", "Grid system e utilitários do Bootstrap", "Responsivo em desktop e mobile"],
         },
         {
-          id: 6, name: "Website Informativo sobre Focas", stack: ["HTML", "CSS"],
+          id: 7, name: "Website Informativo sobre Focas", stack: ["HTML", "CSS"],
           link: "https://gabbycarvalho.github.io/seals/",
           description: "Um website criativo e visualmente envolvente sobre focas, com forte foco em design de layout e apresentação visual.",
           features: ["Estrutura HTML semântica", "Layout e hierarquia visual em CSS", "Design responsivo", "Interface limpa e acessível"],
         },
         {
-          id: 7, name: "Calculadora", stack: ["HTML", "CSS", "JavaScript"],
+          id: 8, name: "Calculadora", stack: ["HTML", "CSS", "JavaScript"],
           link: "https://gabbycarvalho.github.io/calculator/",
           description: "Uma calculadora interativa com suporte a múltiplas operações matemáticas e personalização dinâmica de estilo em tempo real.",
           features: ["Múltiplas operações matemáticas", "Personalização dinâmica de estilo", "Interface responsiva", "Manipulação de DOM e fundamentos de JS"],
         },
         {
-          id: 8, name: "Biblioteca de Jogos", stack: ["React", "JavaScript", "CSS"],
+          id: 9, name: "Biblioteca de Jogos", stack: ["React", "JavaScript", "CSS"],
           link: "https://gabbycarvalho.github.io/game-library/",
           description: "Uma aplicação de biblioteca de jogos em React que permite gerenciar uma coleção personalizada, com atualizações em tempo real.",
           features: ["Adicionar jogos com título e imagem de capa", "Exibir jogos em layout de cards", "Remover jogos da lista", "Atualizações em tempo real com estado React"],
         },
         {
-          id: 9, name: "Jogo da Velha", stack: ["HTML", "CSS", "JavaScript"],
+          id: 10, name: "Jogo da Velha", stack: ["HTML", "CSS", "JavaScript"],
           link: "https://gabbycarvalho.github.io/tic-tac-toe/",
           description: "Um jogo da velha interativo com placar em tempo real, indicador do jogador atual e notificações de vencedor após cada rodada.",
           features: ["Placar em tempo real", "Indicador do jogador atual", "Notificações de vencedor", "Interface responsiva e limpa"],
         },
         {
-          id: 10, name: "Pedra, Papel, Tesoura", stack: ["React", "JavaScript", "CSS"],
+          id: 11, name: "Pedra, Papel, Tesoura", stack: ["React", "JavaScript", "CSS"],
           link: "https://gabbycarvalho.github.io/rock-paper-scissors/",
           description: "Um jogo responsivo e interativo de Pedra, Papel, Tesoura em React, com escolhas aleatórias do computador, feedback visual instantâneo e placar ao vivo.",
           features: ["Escolhas aleatórias do computador", "Placar ao vivo", "Feedback visual instantâneo", "Função de reset para reiniciar jogo e pontuação"],
