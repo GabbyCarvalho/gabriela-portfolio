@@ -85,19 +85,27 @@ import boot3 from "../assets/projects/boot3.png";
 import boot4 from "../assets/projects/boot4.png";
 import boot5 from "../assets/projects/boot5.png";
 
+//GCSTUDIO screenshots
+import gc1 from "../assets/projects/gc1.png";
+import gc2 from "../assets/projects/gc2.png";
+import gc3 from "../assets/projects/gc3.png";
+import gc4 from "../assets/projects/gc4.png";
+import gc5 from "../assets/projects/gc5.png";
+
 // Images mapped by project id (stays the same regardless of language)
 const projectImages = {
   1: [lppedro1, lppedro2, lppedro3, lppedro4, lppedro5, lppedro6, lppedro7],
   2: [ka1, ka2, ka3, ka4, ka5, ka6, ka7, ka8, ka9, ka10],
   3: [engagements, sports, portraits],
-  4: [imoveis1, imoveis2, imoveis3, imoveis4, imoveis5],
-  5: [pizza1, pizza2, pizza3, pizza4, pizza5],
-  6: [boot1, boot2, boot3, boot4, boot5],
-  7: [seals1, seals2, seals3, seals4, seals5, seals6],
-  8: [calc1, calc2, calc3, calc4],
-  9: [gl1, gl2, gl3, gl4],
-  10: [tic1, tic2, tic3, tic4],
-  11: [rps1, rps2, rps3, rps4],
+  4: [gc1, gc2, gc3, gc4, gc5],
+  5: [imoveis1, imoveis2, imoveis3, imoveis4, imoveis5],
+  6: [pizza1, pizza2, pizza3, pizza4, pizza5],
+  7: [boot1, boot2, boot3, boot4, boot5],
+  8: [seals1, seals2, seals3, seals4, seals5, seals6],
+  9: [calc1, calc2, calc3, calc4],
+  10: [gl1, gl2, gl3, gl4],
+  11: [tic1, tic2, tic3, tic4],
+  12: [rps1, rps2, rps3, rps4],
 };
 
 function Carousel({ images, projectName }) {
