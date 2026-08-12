@@ -16,7 +16,7 @@
   gap: 2rem;
   border-bottom: 1px solid var(--bg-tertiary);
   padding-bottom: 2.5rem;
-  padding: 5rem;
+  padding: 3rem 5rem 2.5rem;
 }
 
 .resumeName {
@@ -277,6 +277,14 @@
 
   .resumeName {
     font-size: 2rem;
+  }
+
+  .resumeHeader {
+    padding: 2rem 1.2rem;
+  }
+
+  .resumeSection {
+    padding: 1rem 1.2rem;
   }
 
   .downloadBtn {
