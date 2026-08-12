@@ -123,24 +123,19 @@ export const t = {
           link: "https://kbphotographer.com/",
         },
         {
+          name: "3D Printing Services Website",
+          description: "A modern and responsive landing page designed to showcase 3D printing services, highlight key offerings, and make it easy for potential customers to get in touch.",
+          link: "https://byte-jb-impressao3-d.vercel.app/",
+        },
+        {
+          name: "Law Firm Landing Page",
+          description: "A creative and visually engaging website about seals, built with a strong focus on layout design and visual presentation.",
+          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
+        },
+        {
           name: "Real Estate",
           description: "Landing page for a luxury real estate agency, featuring a sophisticated design and conversion-focused experience.",
           link: "https://corretora-lp.vercel.app/",
-        },
-        {
-          name: "Travel Agency",
-          description: "Travel agency landing page built with HTML, CSS, and Bootstrap, designed to showcase destinations, services, and provide a clean, responsive user experience with easy contact access.",
-          link: "https://gabbycarvalho.github.io/travel-agency/",
-        },
-        {
-          name: "Restaurant Website",
-          description: "Online pizzeria landing page built with HTML and CSS as a learning project, designed to practice layout structure, responsive design, and visual styling while simulating a simple restaurant menu interface.",
-          link: "https://gabbycarvalho.github.io/pizza-place/",
-        },
-        {
-          name: "Informative Website",
-          description: "A creative and visually engaging website about seals, built with a strong focus on layout design and visual presentation.",
-          link: "https://gabbycarvalho.github.io/seals/",
         },
       ],
       pt: [
@@ -150,25 +145,22 @@ export const t = {
           link: "https://kbphotographer.com/",
         },
         {
+          name: "Landing Page de Impressão 3D",
+          description: "Landing page moderna e responsiva desenvolvida para apresentar serviços de impressão 3D, destacar os principais serviços e facilitar o contato com potenciais clientes.",
+          link: "https://byte-jb-impressao3-d.vercel.app/",
+        },
+        {
+          name: "Landing Page para Escritório de Advocacia",
+          description: "Landing page profissional e visualmente envolvente para um escritório de advocacia, desenvolvida com foco em layout, apresentação visual e experiência do usuário.",
+          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
+        },
+        {
           name: "Corretora de Imóveis",
           description: "Landing page para uma corretora de imóveis de alto padrão, desenvolvido com foco em elegância, credibilidade e captação de clientes.",
           link: "https://corretora-lp.vercel.app/",
         },
-        {
-          name: "Agência de Viagens",
-          description: "Landing page de agência de viagens com HTML, CSS e Bootstrap, projetada para destacar destinos, serviços e oferecer uma experiência responsiva com fácil acesso ao contato.",
-          link: "https://gabbycarvalho.github.io/travel-agency/",
-        },
-        {
-          name: "Website de Restaurante",
-          description: "Landing page de pizzaria com HTML e CSS, desenvolvida como projeto de aprendizado para praticar estrutura de layout, design responsivo e estilização visual.",
-          link: "https://gabbycarvalho.github.io/pizza-place/",
-        },
-        {
-          name: "Website Informativo",
-          description: "Um website criativo e visualmente envolvente sobre focas, com forte foco em design de layout e apresentação visual.",
-          link: "https://gabbycarvalho.github.io/seals/",
-        },
+
+
       ],
     },
 
