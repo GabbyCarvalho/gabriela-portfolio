@@ -92,20 +92,28 @@ import gc3 from "../assets/projects/gc3.png";
 import gc4 from "../assets/projects/gc4.png";
 import gc5 from "../assets/projects/gc5.png";
 
+//PEDRO & Naidhig WEBSITE INSTITUCIONAL
+import pen1 from "../assets/projects/pen1.png"
+import pen2 from "../assets/projects/pen2.png"
+import pen3 from "../assets/projects/pen3.png"
+import pen4 from "../assets/projects/pen4.png"
+import pen5 from "../assets/projects/pen5.png"
+
 // Images mapped by project id (stays the same regardless of language)
 const projectImages = {
-  1: [lppedro1, lppedro2, lppedro3, lppedro4, lppedro5, lppedro6, lppedro7],
-  2: [ka1, ka2, ka3, ka4, ka5, ka6, ka7, ka8, ka9, ka10],
-  3: [engagements, sports, portraits],
-  4: [gc1, gc2, gc3, gc4, gc5],
-  5: [imoveis1, imoveis2, imoveis3, imoveis4, imoveis5],
-  6: [pizza1, pizza2, pizza3, pizza4, pizza5],
-  7: [boot1, boot2, boot3, boot4, boot5],
-  8: [seals1, seals2, seals3, seals4, seals5, seals6],
-  9: [calc1, calc2, calc3, calc4],
-  10: [gl1, gl2, gl3, gl4],
-  11: [tic1, tic2, tic3, tic4],
-  12: [rps1, rps2, rps3, rps4],
+  1: [pen1, pen2, pen3, pen4, pen5],
+  2: [lppedro1, lppedro2, lppedro3, lppedro4, lppedro5, lppedro6, lppedro7],
+  3: [ka1, ka2, ka3, ka4, ka5, ka6, ka7, ka8, ka9, ka10],
+  4: [engagements, sports, portraits],
+  5: [gc1, gc2, gc3, gc4, gc5],
+  6: [imoveis1, imoveis2, imoveis3, imoveis4, imoveis5],
+  7: [pizza1, pizza2, pizza3, pizza4, pizza5],
+  8: [boot1, boot2, boot3, boot4, boot5],
+  9: [seals1, seals2, seals3, seals4, seals5, seals6],
+  10: [calc1, calc2, calc3, calc4],
+  11: [gl1, gl2, gl3, gl4],
+  12: [tic1, tic2, tic3, tic4],
+  13: [rps1, rps2, rps3, rps4],
 };
 
 function Carousel({ images, projectName }) {
