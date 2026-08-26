@@ -48,7 +48,7 @@ export const t = {
     download: { en: "Download PDF", pt: "Baixar PDF" },
     skills:     { en: "Technical Skills", pt: "Habilidades Técnicas" },
     experience: { en: "Work Experience", pt: "Experiência Profissional" },
-    projects:   { en: "Projects", pt: "Projetos" },
+    projects:   { en: " Featured Projects", pt: "Projetos em Destaque" },
     education:  { en: "Education", pt: "Formação Acadêmica" },
     viewProject:{ en: "View project", pt: "Ver projeto" },
 
@@ -57,8 +57,10 @@ export const t = {
         {
           role: "Front-End Developer with a Focus on SEO (Freelance)",
           company: "Pedro & Naidhig Sociedade de Advogados",
-          link: "https://pedroenaidhig.vercel.app/",
-          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
+          links:[ { label: "Institutional Website", url: "https://pedroenaidhig.vercel.app/" },
+                  { label: "Landing Page", url: "https://buscaeapreensao.pedroenaidhig.adv.br/" }
+                ],
+
           period: "June - 2026",
           bullets: [
             "Designed and developed a responsive React-based institutional website and landing page for a law firm specializing in vehicle repossession and legal defense services.",
@@ -71,7 +73,7 @@ export const t = {
         {
           role: "Front-End Developer (Freelance)",
           company: "BYTEJB",
-          link: "https://byte-jb-impressao3-d.vercel.app/",
+          links: [{ label: "Landing Page", url: "https://byte-jb-impressao3-d.vercel.app/" }],
           period: "May 2026",
           bullets: [
           "Designed and developed a responsive website for a 3D printing and laser cutting service business.",
@@ -85,7 +87,7 @@ export const t = {
         {
           role: "Front-End Developer (Freelance)",
           company: "KBPhotographer",
-          link: "https://kbphotographer.com/",
+          links:[{label: "Institutional Website" , url: "https://kbphotographer.com/"}] ,
           period: "Jan 2026 – Mar 2026",
           bullets: [
             "Designed and developed a high-performance, responsive web application.",
@@ -101,8 +103,10 @@ export const t = {
          {
           role: "Desenvolvedora Front-End & SEO (Freelance)",
           company:  "Pedro & Naidhig Sociedade de Advogados",
-          link: "https://pedroenaidhig.vercel.app/",
-          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
+          links:[ { label: "Site institucional", url: "https://pedroenaidhig.vercel.app/" },
+                  { label: "Landing Page", url: "https://buscaeapreensao.pedroenaidhig.adv.br/" },
+                ],
+
           period: "June - 2026",
           bullets: [
             "Desenvolvi website institucional uma landing page responsiva e focada em conversão para um escritório de advocacia.",
@@ -117,7 +121,7 @@ export const t = {
         {
           role: "Desenvolvedora Front-End (Freelance)",
           company: "BYTEJB",
-          link: "https://byte-jb-impressao3-d.vercel.app/",
+          links: [{ label: "Landing Page", url: "https://byte-jb-impressao3-d.vercel.app/" }],
           period: "Maio 2026",
           bullets: [
           "Desenvolvi um site responsivo para uma empresa de serviços de impressão 3D e corte a laser.",
@@ -130,7 +134,7 @@ export const t = {
         {
           role: "Desenvolvedora Front-End (Freelance)",
           company: "KBPhotographer",
-          link: "https://kbphotographer.com/",
+          links:[{label: "Website Institucional" , url: "https://kbphotographer.com/"}] ,
           period: "Jan 2026 – Mar 2026",
           bullets: [
             "Projetei e desenvolvi uma aplicação web responsiva e de alto desempenho.",
@@ -145,49 +149,50 @@ export const t = {
 
     projectsData: {
       en: [
+        { 
+        name: "GC Studio", 
+        description: "Professional portfolio website showcasing freelance web development services, featured projects, and expertise in creating modern, responsive, and SEO-friendly websites.", 
+        link: "https://gcstudio.dev/" 
+      },
         {
-          name: "KBPhotographer",
-          description: "Bilingual (EN/PT) photography portfolio focused on professional presentation, online portfolio structure, and streamlined client contact.",
-          link: "https://kbphotographer.com/",
+        name: "Real Estate",
+        description: "Landing page for a luxury real estate agency, featuring a sophisticated design and conversion-focused experience.",
+        link: "https://corretora-lp.vercel.app/"
         },
-        {
-          name: "3D Printing Services Website",
-          description: "A modern and responsive landing page designed to showcase 3D printing services, highlight key offerings, and make it easy for potential customers to get in touch.",
-          link: "https://byte-jb-impressao3-d.vercel.app/",
-        },
-        {
-          name: "Law Firm Landing Page",
-          description: "A creative and visually engaging website about seals, built with a strong focus on layout design and visual presentation.",
-          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
-        },
-        {
-          name: "Real Estate",
-          description: "Landing page for a luxury real estate agency, featuring a sophisticated design and conversion-focused experience.",
-          link: "https://corretora-lp.vercel.app/",
-        },
+        
+        { 
+        name: "Seals - Informative Page", 
+        description: "Informative website dedicated to seals, featuring educational content, engaging visuals, and a responsive user experience designed for accessibility across devices.", 
+        link: "https://gabbycarvalho.github.io/seals/"
+      },
+      { 
+      name: "Travel Agency",
+      description: "Modern travel agency website featuring destination highlights, travel packages, and an intuitive user experience designed to inspire and engage travelers. Styled entirely with Bootstrap to ensure a responsive and consistent layout across devices.",
+      link: "https://gabbycarvalho.github.io/travel-agency/"
+    },
+
       ],
       pt: [
-        {
-          name: "KBPhotographer",
-          description: "Portfólio de fotografia bilíngue (EN/PT) focado em apresentação profissional, estrutura de portfólio online e contato simplificado com clientes.",
-          link: "https://kbphotographer.com/",
-        },
-        {
-          name: "Landing Page de Impressão 3D",
-          description: "Landing page moderna e responsiva desenvolvida para apresentar serviços de impressão 3D, destacar os principais serviços e facilitar o contato com potenciais clientes.",
-          link: "https://byte-jb-impressao3-d.vercel.app/",
-        },
-        {
-          name: "Landing Page para Escritório de Advocacia",
-          description: "Landing page profissional e visualmente envolvente para um escritório de advocacia, desenvolvida com foco em layout, apresentação visual e experiência do usuário.",
-          link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
-        },
+        { 
+        name: "GC Studio", 
+        description: "Site profissional de portfólio que apresenta serviços de desenvolvimento web freelance, projetos em destaque e experiência na criação de sites modernos, responsivos e otimizados para SEO.",
+        link: "https://gcstudio.dev/"
+      },
         {
           name: "Corretora de Imóveis",
           description: "Landing page para uma corretora de imóveis de alto padrão, desenvolvido com foco em elegância, credibilidade e captação de clientes.",
-          link: "https://corretora-lp.vercel.app/",
+          link: "https://corretora-lp.vercel.app/"
         },
 
+        { name: "Focas - Website Informativo", 
+        description: "Site informativo sobre focas, com conteúdo educativo, elementos visuais envolventes e uma experiência responsiva desenvolvida para garantir acessibilidade em diferentes dispositivos.", 
+        link: "https://gabbycarvalho.github.io/seals/"
+      },
+        {
+          name: "Landing Page para Escritório de Advocacia",
+          description: "Landing page profissional e visualmente envolvente para um escritório de advocacia, desenvolvida com foco em layout, apresentação visual e experiência do usuário.",
+          link: "https://buscaeapreensao.pedroenaidhig.adv.br/"
+        },
 
       ],
     },

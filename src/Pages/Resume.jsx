@@ -56,9 +56,20 @@ export default function Resume() {
             <div className="expHeader">
               <div>
                 <h3 className="expRole">{exp.role}</h3>
-                <a href={exp.link} target="_blank" rel="noreferrer" className="expCompany">
-                  {exp.company} <FiExternalLink size={12} />
-                </a>
+                <span className="expCompany">{exp.company}</span>
+                <div className="expLinks">
+                  {exp.links.map((l) => (
+                    <a
+                      href={l.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="expLink"
+                      key={l.url}
+                    >
+                      {l.label} <FiExternalLink size={12} />
+                    </a>
+                  ))}
+                </div>
               </div>
               <span className="expPeriod">{exp.period}</span>
             </div>

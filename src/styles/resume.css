@@ -128,18 +128,11 @@
 }
 
 .expCompany {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
+  display: block;
   margin-top: 0.3rem;
   font-size: 0.875rem;
   color: var(--accent-purple);
-  text-decoration: none;
   font-family: 'Inter', sans-serif;
-}
-
-.expCompany:hover {
-  text-decoration: underline;
 }
 
 .expPeriod {
@@ -161,6 +154,26 @@
   font-size: 0.9rem;
   color: var(--text-primary);
   line-height: 1.6;
+}
+.expLinks {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 2px;
+}
+
+.expLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+.expLink:hover {
+  text-decoration: underline;
 }
 
 /* ── Projects ── */
@@ -295,6 +308,11 @@
   .expHeader {
     flex-direction: column;
     gap: 0.3rem;
+  }
+
+  .expLinks {
+    flex-direction: column;
+    gap: 6px;
   }
 
   .projectsGrid {
