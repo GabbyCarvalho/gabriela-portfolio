@@ -57,22 +57,36 @@ export const t = {
         {
           role: "Front-End Developer with a Focus on SEO (Freelance)",
           company: "Pedro & Naidhig Sociedade de Advogados",
+          link: "https://pedroenaidhig.vercel.app/",
           link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
           period: "June - 2026",
           bullets: [
-            "Designed and developed a responsive React-based landing page for a law firm specializing in vehicle repossession and legal defense services.",
+            "Designed and developed a responsive React-based institutional website and landing page for a law firm specializing in vehicle repossession and legal defense services.",
             "Built the front-end using React, JavaScript (ES6+), HTML5, and CSS3.",
             "Created reusable components and maintained a scalable, component-based architecture.",
             "Optimized performance, accessibility, and mobile responsiveness across modern browsers.",
             "Implemented technical SEO best practices and conversion-focused UI to improve search visibility and user engagement.",
           ],
         },
+        {
+          role: "Front-End Developer (Freelance)",
+          company: "BYTEJB",
+          link: "https://byte-jb-impressao3-d.vercel.app/",
+          period: "May 2026",
+          bullets: [
+          "Designed and developed a responsive website for a 3D printing and laser cutting service business.",
+          "Created the brand’s visual identity, including logo and color palette, in collaboration with the client.",
+          "Built the front-end using React, JavaScript (ES6+), HTML5, CSS3, and Vite.",
+          "Applied component-based architecture and responsive design to deliver a consistent user experience across devices.",
+          "Optimized the interface for usability, visual consistency, and performance."
+          ],
+          },
 
         {
           role: "Front-End Developer (Freelance)",
           company: "KBPhotographer",
           link: "https://kbphotographer.com/",
-          period: "Jan 2026 – Apr 2026",
+          period: "Jan 2026 – Mar 2026",
           bullets: [
             "Designed and developed a high-performance, responsive web application.",
             "Implemented a multi-language (EN/PT) interface for a global user base.",
@@ -87,10 +101,11 @@ export const t = {
          {
           role: "Desenvolvedora Front-End & SEO (Freelance)",
           company:  "Pedro & Naidhig Sociedade de Advogados",
+          link: "https://pedroenaidhig.vercel.app/",
           link: "https://buscaeapreensao.pedroenaidhig.adv.br/",
           period: "June - 2026",
           bullets: [
-            "Desenvolvi uma landing page responsiva e focada em conversão para um escritório de advocacia especializado em busca e apreensão de veículos e defesa jurídica.",
+            "Desenvolvi website institucional uma landing page responsiva e focada em conversão para um escritório de advocacia.",
             "Construí o front-end utilizando React, JavaScript (ES6+), HTML5 e CSS3.",
             "Criei componentes reutilizáveis seguindo uma arquitetura moderna e escalável.",
             "Otimizei desempenho, acessibilidade e responsividade para garantir uma experiência consistente em diferentes dispositivos.",
@@ -101,9 +116,22 @@ export const t = {
         },
         {
           role: "Desenvolvedora Front-End (Freelance)",
+          company: "BYTEJB",
+          link: "https://byte-jb-impressao3-d.vercel.app/",
+          period: "Maio 2026",
+          bullets: [
+          "Desenvolvi um site responsivo para uma empresa de serviços de impressão 3D e corte a laser.",
+          "Criei a identidade visual da marca, incluindo logotipo e paleta de cores, em colaboração com o cliente.",
+          "Desenvolvi o front-end utilizando React, JavaScript (ES6+), HTML5, CSS3 e Vite.",
+          "Apliquei arquitetura baseada em componentes e design responsivo para proporcionar uma experiência consistente em diferentes dispositivos.",
+          "Otimizei a interface com foco em usabilidade, consistência visual e performance."
+          ],
+        },
+        {
+          role: "Desenvolvedora Front-End (Freelance)",
           company: "KBPhotographer",
           link: "https://kbphotographer.com/",
-          period: "Jan 2026 – Abr 2026",
+          period: "Jan 2026 – Mar 2026",
           bullets: [
             "Projetei e desenvolvi uma aplicação web responsiva e de alto desempenho.",
             "Implementei interface multilíngue (EN/PT) para uma base de usuários global.",
