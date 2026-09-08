@@ -52,11 +52,11 @@ export default function Terminal() {
         </div>
         <div className="line" ref={l2}>
           <span className="prompt">&gt; </span>
-          <span className="value-role">Frontend Developer</span>
+          <span className="value-role">Full-Stack Developer</span>
         </div>
         <div className="line" ref={l3}>
           <span className="prompt">&gt; </span>
-          <span className="value-stack">React · JavaScript · CSS</span>
+          <span className="value-stack">React · JavaScript · Node · SQL</span>
         </div>
         <div className="line" ref={l4}>
           <span className="prompt">&gt; </span>

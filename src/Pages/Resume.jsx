@@ -4,8 +4,10 @@ import { useLang } from "../LanguageContext";
 import { t } from "../i18n";
 
 const skills = [
-  "JavaScript", "TypeScript", "React",
-  "HTML", "CSS", "Git & GitHub",
+  "JavaScript", "HTML", "CSS", "TypeScript", "Node.js",
+  "React","Next.js", "Bootstrap", 
+  "PostegreSQL", "SQL",
+  "Git & GitHub",
   "English (Fluent)", "Portuguese (Native)",
 ];
 

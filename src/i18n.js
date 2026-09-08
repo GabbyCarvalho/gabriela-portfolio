@@ -20,31 +20,50 @@ export const t = {
   about: {
     greeting: { en: "Hi there, nice to meet you!", pt: "Olá, muito prazer!" },
     p1: {
-      en: "My name is Gabriela, and I'm a Front-End Developer passionate about creating responsive and meaningful web experiences.",
-      pt: "Meu nome é Gabriela, e sou Desenvolvedora Front-End apaixonada por criar experiências web responsivas e com propósito.",
+
+      en: "My name is Gabriela, and I'm a Full-Stack Developer passionate about creating responsive and meaningful web experiences.",
+    
+      pt: "Meu nome é Gabriela, e sou Desenvolvedora Full-Stack apaixonada por criar experiências web responsivas e com propósito.",
+    
     },
+    
     p2: {
+    
       en: "My background in design sparked my passion for building creative and visually engaging websites, combining aesthetics with functionality to create experiences people genuinely enjoy using.",
+    
       pt: "Minha formação em design acendeu minha paixão por construir websites criativos e visualmente envolventes, unindo estética e funcionalidade para criar experiências que as pessoas realmente aproveitam.",
+    
     },
+    
     p3: {
+    
       en: "Over the years, I've had the opportunity to live, study, and work in both the United States and Canada, an experience that shaped not only my fluency in English but also my adaptability, communication skills, and global perspective.",
+    
       pt: "Ao longo dos anos, tive a oportunidade de morar, estudar e trabalhar nos Estados Unidos e no Canadá — uma experiência que moldou não só a minha fluência em inglês, mas também minha adaptabilidade, comunicação e visão global.",
+    
     },
+    
     p4: {
-      en: "Today, I specialize in React and JavaScript, with hands-on experience in TypeScript, API integrations, testing, debugging, and responsive development. I enjoy transforming ideas into intuitive interfaces, writing clean and maintainable code, and continuously learning new technologies to grow as a developer.",
-      pt: "Hoje, me especializo em React e JavaScript, com experiência prática em TypeScript, integrações de APIs, testes, debugging e desenvolvimento responsivo. Gosto de transformar ideias em interfaces intuitivas, escrever código limpo e manutenível, e aprender continuamente novas tecnologias.",
+    
+      en: "Today, I specialize in React and JavaScript, with hands-on experience in TypeScript, Node.js, SQL, PostgreSQL, API integrations, testing, debugging, and responsive development. I enjoy building both intuitive user interfaces and reliable back-end solutions, writing clean and maintainable code, and continuously learning new technologies to grow as a developer.",
+    
+      pt: "Hoje, me especializo em React e JavaScript, com experiência prática em TypeScript, Node.js, SQL, PostgreSQL, integrações de APIs, testes, debugging e desenvolvimento responsivo. Gosto de desenvolver tanto interfaces intuitivas quanto soluções de back-end confiáveis, escrever código limpo e manutenível, e aprender continuamente novas tecnologias.",
+    
     },
+    
     p5: {
+    
       en: "I'm passionate about problem-solving, creativity, and building digital experiences that are not only functional, but memorable.",
+    
       pt: "Sou apaixonada por resolver problemas, criatividade e criar experiências digitais que não são apenas funcionais, mas memoráveis.",
+    
     },
     cta: { en: "Check some of my work", pt: "Veja alguns dos meus projetos" },
   },
 
   // ── Resume ──────────────────────────────────────────────
   resume: {
-    sub:        { en: "Front-End Developer · São Paulo, Brazil · Open to Remote", pt: "Desenvolvedora Front-End · São Paulo, Brasil · Aberta a Remoto" },
+    sub:        { en: "Full-Stack Developer · Araraquara, SP · Open to Remote", pt: "Desenvolvedora Full-Stack · Araraquara, SP · Aberta a Remoto" },
     download: { en: "Download PDF", pt: "Baixar PDF" },
     skills:     { en: "Technical Skills", pt: "Habilidades Técnicas" },
     experience: { en: "Work Experience", pt: "Experiência Profissional" },
