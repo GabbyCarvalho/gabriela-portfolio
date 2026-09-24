@@ -76,7 +76,7 @@ export const t = {
         {
           role: "Front-End Developer with a Focus on SEO (Freelance)",
           company: "Pedro & Naidhig Sociedade de Advogados",
-          links:[ { label: "Institutional Website", url: "https://pedroenaidhig.vercel.app/" },
+          links:[ { label: "Institutional Website", url: "https://pedroenaidhig.adv.br/" },
                   { label: "Landing Page", url: "https://buscaeapreensao.pedroenaidhig.adv.br/" }
                 ],
 
@@ -122,7 +122,7 @@ export const t = {
          {
           role: "Desenvolvedora Front-End & SEO (Freelance)",
           company:  "Pedro & Naidhig Sociedade de Advogados",
-          links:[ { label: "Site institucional", url: "https://pedroenaidhig.vercel.app/" },
+          links:[ { label: "Site institucional", url: "https://pedroenaidhig.adv.br/" },
                   { label: "Landing Page", url: "https://buscaeapreensao.pedroenaidhig.adv.br/" },
                 ],
 
@@ -242,7 +242,7 @@ export const t = {
           id: 1,
           name: "Pedro & Naidhig Law Firm - Institutional Website",
           stack: ["React", "JavaScript", "CSS"],
-          link: "https://pedroenaidhig.vercel.app/",
+          link: "https://pedroenaidhig.adv.br/",
           description: "An institutional website developed for a full-service law firm, designed to showcase its legal expertise, services, and professional presence online. Built with React, the project focuses on responsive design, technical SEO, performance optimization, and a clear, user-friendly experience that makes it easy for potential clients to explore the firm's services and get in touch.",
           features: ["Responsive and mobile-first design", "Technical SEO implementation", "Performance and accessibility optimization", "Conversion-focused user experience"],
         },
@@ -339,7 +339,7 @@ export const t = {
           id: 1,
           name: "Pedro & Naidhig - Advogados - Website Institucional",
           stack: ["React", "JavaScript", "CSS"],
-          link: "https://pedroenaidhig.vercel.app/",
+          link: "https://pedroenaidhig.adv.br/",
           description: "Site institucional desenvolvido para um escritório de advocacia, com o objetivo de apresentar sua atuação, serviços jurídicos e presença profissional no ambiente digital. Desenvolvido em React, o projeto combina design responsivo, SEO técnico, otimização de performance e uma experiência de usuário clara e intuitiva, facilitando o acesso às informações e o contato com potenciais clientes.",
           features: ["Design responsivo e mobile-first", "Implementação de SEO técnico", "Otimização de desempenho e acessibilidade", "Experiência do usuário focada em conversão"],
         },
