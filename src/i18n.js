@@ -45,9 +45,9 @@ export const t = {
     
     p4: {
     
-      en: "Today, I specialize in React and JavaScript, with hands-on experience in TypeScript, Node.js, SQL, PostgreSQL, API integrations, testing, debugging, and responsive development. I enjoy building both intuitive user interfaces and reliable back-end solutions, writing clean and maintainable code, and continuously learning new technologies to grow as a developer.",
+      en: "Today, I specialize in React and JavaScript, with hands-on experience in TypeScript, Node.js, Java, SQL, PostgreSQL, API integrations, testing, debugging, and responsive development. I enjoy building both intuitive user interfaces and reliable back-end solutions, writing clean and maintainable code, and continuously learning new technologies to grow as a developer.",
     
-      pt: "Hoje, me especializo em React e JavaScript, com experiência prática em TypeScript, Node.js, SQL, PostgreSQL, integrações de APIs, testes, debugging e desenvolvimento responsivo. Gosto de desenvolver tanto interfaces intuitivas quanto soluções de back-end confiáveis, escrever código limpo e manutenível, e aprender continuamente novas tecnologias.",
+      pt: "Hoje, me especializo em React e JavaScript, com experiência prática em TypeScript, Node.js, Java, SQL, PostgreSQL, integrações de APIs, testes, debugging e desenvolvimento responsivo. Gosto de desenvolver tanto interfaces intuitivas quanto soluções de back-end confiáveis, escrever código limpo e manutenível, e aprender continuamente novas tecnologias.",
     
     },
     
